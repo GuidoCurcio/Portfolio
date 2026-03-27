@@ -1585,10 +1585,10 @@
   <!-- HERO SUBTITLE -->
   <div class="hero-sub">
     <div class="hero-tags">
-      <div class="tag active" data-image="hero.jpg">Demo Reel</div>
+      <div class="tag active" data-video="https://www.youtube.com/embed/ZFeY9rV59ns">Demo Reel</div>
       <div class="tag" data-image="hero-unreal.gif">Unreal Engine</div>
       <div class="tag" data-image="hero-unity.jpg">Unity 3D</div>
-      <div class="tag" data-video="https://www.youtube.com/embed/gbBqzQ4B0RE">VR / AR</div>
+      <div class="tag" data-video="https://www.youtube.com/embed/ZFeY9rV59ns">VR / AR</div>
       <div class="tag" data-image="hero-motion.gif">Inmersive experiences</div>
     </div>
     <div class="hero-location">
@@ -1597,26 +1597,25 @@
     </div>
   </div>
 
-  <!-- HERO IMAGE -->
-  <div style="padding: 0 2.5rem;">
-    <div class="hero-image-wrap">
-      <!-- To use your own render, drop a file in the `images/` folder and name it `hero.jpg` (or .png).
-           The tag below will be activated once you add the file: -->
-      <img src="/images/hero.jpg" alt="Hero render" id="heroImg">
-      <iframe id="heroVideo" style="display:none;width:100%;height:100%;border:none;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <!-- (rename it if you prefer, just update the src accordingly) -->
-      <div class="hero-image-placeholder">
-        <div class="ph-icon">🎨</div>
-        <span>REPLACE WITH YOUR BEST 3D RENDER</span>
-        <span style="opacity:0.4">Recommended: dramatic lighting, architectural or VR scene</span>
-      </div>
-      <div class="hero-badge">Available for Work</div>
-      <div class="hero-scroll-hint">
-        <div class="scroll-line"></div>
-        Scroll
-      </div>
+ <!-- HERO VIDEO -->
+<div style="padding: 0 2.5rem;">
+  <div class="hero-image-wrap">
+    <!-- Replace YOUR_VIDEO_ID with your YouTube video ID
+         e.g. for https://www.youtube.com/watch?v=dQw4w9WgXcQ, the ID is: dQw4w9WgXcQ -->
+    <iframe
+      src="https://www.youtube.com/watch?v=ZFeY9rV59ns"
+      id="heroVideo"
+      style="width:100%;height:100%;border:none;"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+    <div class="hero-badge">Available for Work</div>
+    <div class="hero-scroll-hint">
+      <div class="scroll-line"></div>
+      Scroll
     </div>
   </div>
+</div>
 
   <!-- MANAGED PROJECTS -->
   <section id="managed" class="managed-section">
@@ -2234,7 +2233,7 @@
 
     <div class="reel-wrap reveal">
       <iframe 
-  src="https://www.youtube-nocookie.com/embed/H5Q-Nq67XVE?autoplay=0&rel=0" 
+  src="https://www.youtube.com/embed/ZFeY9rV59ns" 
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
   referrerpolicy="strict-origin-when-cross-origin"
   allowfullscreen>
